@@ -1,26 +1,22 @@
 import java.util.Scanner;
 
-public class Ace {
+public class Stamp2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("a: ");
-
         int a = scanner.nextInt();
-
         System.out.print("b: ");
-
         int b = scanner.nextInt();
 
-        int p = a + b;
-        int m = a - b;
-        int i = a * b;
-        int s = a / b;
-        int q = a % b;
+        int plus = a + b;
+        int minus = a - b;
+        int multiply = a * b;
+        int division = a / b;
+        int remain = a % b;
 
-        String result = p+","+m+","+i+","+s+","+q;
+        String result = plus + "," + minus + "," + multiply + "," + division + "," + remain;
 
         System.out.println(result);
-
     }
-        }
+}

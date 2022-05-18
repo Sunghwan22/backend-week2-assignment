@@ -1,8 +1,0 @@
-public class HelloName {
-    public static void main(String[] args) {
-
-        String name = "world";
-        System.out.print("hello, ");
-        System.out.println(name);
-    }
-}
